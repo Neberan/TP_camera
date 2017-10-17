@@ -6,22 +6,21 @@
     android:layout_height="match_parent"
     tools:context="fr.upec.moulart.camera.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="145dp"
-        android:text="@string/prendre_photo"
-        android:onClick="hasCamera"/>
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
+
+    </FrameLayout>
+
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="77dp"
-        android:text="" />
+        android:id="@+id/imgClose"
+        android:layout_gravity="right|top"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:padding="20dp"/>
+
+
 </RelativeLayout>
