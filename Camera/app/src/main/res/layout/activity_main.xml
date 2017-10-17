@@ -35,7 +35,8 @@
         android:layout_below="@+id/camera_view"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:text="@string/prendre_photo" />
+        android:text="@string/prendre_photo"
+        android:onClick="onBtnClicked"/>
 
 
 </RelativeLayout>
