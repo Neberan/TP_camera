@@ -15,4 +15,13 @@
         android:layout_marginBottom="145dp"
         android:text="@string/prendre_photo"
         android:onClick="hasCamera"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="" />
 </RelativeLayout>
